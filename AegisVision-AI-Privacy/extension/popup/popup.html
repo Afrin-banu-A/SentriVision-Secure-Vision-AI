@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SentriVision</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="header">
+        <img src="../assets/logo/sentrivision-icon-48.png" alt="SentriVision Logo">
+        <div>
+            <h1>SentriVision</h1>
+            <p>Privacy Protection</p>
+        </div>
+    </div>
+
+    <div class="status-panel">
+        <p>Backend Status: <span id="backend-status" class="status-indicator">Checking...</span></p>
+    </div>
+
+    <button id="send-ai-btn" disabled>SEND SANITIZED PAGE TO AI</button>
+
+    <div id="results" class="hidden">
+        <div class="metrics">
+            <h3>Protection Complete</h3>
+            <p>Items Protected: <span id="protected-count">0</span></p>
+            <p>AI Payload: <strong class="safe-text">SAFE</strong></p>
+        </div>
+        
+        <div class="view-panel">
+            <h3>HUMAN VIEW</h3>
+            <p class="desc">The original webpage remains unchanged.</p>
+        </div>
+
+        <div class="view-panel">
+            <h3>AI SIMULATOR</h3>
+            <p class="desc">Raw sensitive information is removed before reaching the AI-facing backend. Only this sanitized representation is sent to the AI.</p>
+            <textarea id="ai-view-text" readonly></textarea>
+        </div>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>

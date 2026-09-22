@@ -1,0 +1,128 @@
+body {
+    width: 400px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+
+.header {
+    background: #2c3e50;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+
+.header > div {
+    text-align: left;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.header p {
+    margin: 5px 0 0;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.status-panel {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.status-indicator {
+    color: #f39c12;
+}
+
+.status-indicator.connected {
+    color: #27ae60;
+}
+
+.status-indicator.disconnected {
+    color: #c0392b;
+}
+
+button {
+    width: 90%;
+    margin: 15px 5%;
+    padding: 10px;
+    background: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:disabled {
+    background: #bdc3c7;
+    cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+    background: #3498db;
+}
+
+.hidden {
+    display: none;
+}
+
+#results {
+    padding: 10px;
+}
+
+.metrics {
+    background: #ecf0f1;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.metrics p {
+    margin: 5px 0;
+}
+
+.safe-text {
+    color: #27ae60;
+}
+
+.view-panel {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.view-panel h3 {
+    margin: 0 0 5px;
+    font-size: 1rem;
+    color: #2c3e50;
+}
+
+.desc {
+    font-size: 0.85rem;
+    color: #7f8c8d;
+    margin: 0 0 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    font-family: monospace;
+    font-size: 0.85rem;
+    resize: vertical;
+}

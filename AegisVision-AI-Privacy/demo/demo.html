@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlobalTrust Bank - Customer Dashboard</title>
+    <link rel="stylesheet" href="demo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">🏦 GlobalTrust Bank</div>
+        <div class="nav-links">
+            <span>Welcome, Afrin</span>
+            <button class="logout-btn">Logout</button>
+        </div>
+    </header>
+    
+    <main class="dashboard">
+        <div class="alert-banner">
+            <strong>Security Alert:</strong> SentriVision Local Privacy Gateway is active. Your data is protected before reaching AI servers.
+        </div>
+
+        <div class="grid-container">
+            <!-- KYC & Identity -->
+            <section class="card">
+                <div class="card-header">
+                    <h2>👤 Personal & KYC Information</h2>
+                </div>
+                <div class="profile-data">
+                    <p><span class="label">Full Name:</span> John Doe</p>
+                    <p><span class="label">Date of Birth:</span> 12 September 1985</p>
+                    <p><span class="label">Email:</span> john.doe@securemail.com</p>
+                    <p><span class="label">Mobile:</span> +91 98765 43210</p>
+                    <p><span class="label">PAN Number:</span> ABCDE1234F</p>
+                    <p><span class="label">Aadhaar:</span> 1234 5678 9012</p>
+                    <p><span class="label">Driving Licence:</span> DL1420110012345</p>
+                    <p><span class="label">Passport:</span> Z1234567</p>
+                    <p><span class="label">Address:</span> 45, Elm Street, Springfield</p>
+                </div>
+            </section>
+
+            <!-- Banking & Account -->
+            <section class="card">
+                <div class="card-header">
+                    <h2>💼 Account Details</h2>
+                </div>
+                <div class="profile-data">
+                    <p><span class="label">Customer ID:</span> CUST8976543</p>
+                    <p><span class="label">Bank Account:</span> 000123456789</p>
+                    <p><span class="label">IFSC Code:</span> HDFC0001234</p>
+                    <p><span class="label">SWIFT Code:</span> HDFCINGBXXX</p>
+                    <p><span class="label">Transaction Password:</span> P@ssw0rd!Secure</p>
+                    <p><span class="label">Login IP:</span> 192.168.1.45</p>
+                </div>
+            </section>
+
+            <!-- Cards & Payments -->
+            <section class="card">
+                <div class="card-header">
+                    <h2>💳 Cards & UPI</h2>
+                </div>
+                <div class="profile-data">
+                    <p><span class="label">Credit Card:</span> 4111 1111 1111 1111</p>
+                    <p><span class="label">Card Expiry:</span> 12/28</p>
+                    <p><span class="label">CVV:</span> 123</p>
+                    <p><span class="label">ATM PIN:</span> 1432</p>
+                    <p><span class="label">UPI ID:</span> john.doe@okbank</p>
+                    <p><span class="label">Transaction OTP:</span> 876543</p>
+                    <p><span class="label">Transaction Amount:</span> ₹ 25,000.00</p>
+                </div>
+            </section>
+
+            <!-- Developer / API Secrets -->
+            <section class="card">
+                <div class="card-header">
+                    <h2>🔐 Developer API Access</h2>
+                </div>
+                <div class="profile-data">
+                    <p><span class="label">API Key:</span> ak_live_abcdefghijklmnopqrstuvwxyz123456</p>
+                    <p><span class="label">Bearer Token:</span> eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWI...</p>
+                    <p><span class="label">Webhook Secret:</span> whsec_1234567890abcdef1234567890abcdef</p>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <script src="demo.js"></script>
+</body>
+</html>
