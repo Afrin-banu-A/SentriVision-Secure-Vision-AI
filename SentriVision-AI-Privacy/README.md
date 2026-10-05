@@ -1,5 +1,6 @@
-# Sentrivision - ML-Based AI-Safe Webpage Privacy Protection
-Sentrivision addresses the privacy gap in AI-enabled web browsing. Traditional webpage interaction exposes the same page representation to both the human and an AI system. Sentrivision separates these two views.
+# SentriVision - ML-Based AI-Safe Webpage Privacy Protection
+
+SentriVision addresses the privacy gap in AI-enabled web browsing. Traditional webpage interaction exposes the same page representation to both the human and an AI system. SentriVision separates these two views.
 
 The human retains access to the original webpage, while a local privacy gateway uses TF-IDF and Logistic Regression to classify sensitive context. Deterministic entity detection then identifies specific PII and credentials and replaces them with semantic placeholders.
 
